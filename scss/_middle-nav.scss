@@ -1,0 +1,16 @@
+@use "./templates";
+
+.middle-nav {
+    @extend %nav-template;
+    padding: 21.5px 10px 22px;
+}
+
+.middle-nav__link {
+    padding: 8.5px 15px 8px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.187em;
+    text-decoration: none;
+    color: #000000;
+}

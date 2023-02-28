@@ -1,0 +1,31 @@
+@use "./templates";
+
+.copy {
+    background-color: #efefef;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.167em;
+    color: #828282;
+}
+
+.copy a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.copy__wrapper {
+    @extend %wrapper-x-template;
+    min-height: 64px;
+    flex-wrap: wrap;
+
+    @media (max-width: 860px) {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+    }
+}
+
+.copy__box {
+    padding: 6px 0;
+}

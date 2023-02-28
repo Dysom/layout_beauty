@@ -1,0 +1,50 @@
+.card {
+    padding: 25px 20px;
+    background-color: #fff;
+}
+
+.card__img-wrapper {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.card__text {
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.423em;
+    text-align: center;
+    color: #333333;
+}
+
+.card__price {
+    margin-bottom: 20px;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 1.19em;
+    text-align: center;
+    letter-spacing: 0.05em;
+
+    color: #000000;
+}
+
+.card__button-wrapper {
+    text-align: center;
+}
+
+.card__button {
+    width: 130px;
+    height: 35px;
+    left: 467px;
+    top: 1303px;
+    background: #66c05d;
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.143em;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #ffffff;
+}

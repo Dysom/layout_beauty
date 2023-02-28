@@ -1,0 +1,12 @@
+.beauty {
+    max-width: 1110px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    @media (max-width: 530px) {
+        flex-direction: column;
+        align-items: center;
+    }
+}

@@ -1,0 +1,30 @@
+@use "./templates";
+
+.feedback-short {
+    max-width: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    @media (max-width: 700px) {
+        flex-direction: column;
+    }
+}
+
+.feedback-short__button {
+    @extend %button-template;
+    margin: 10px 20px;
+    border: 2px solid #66c05d;
+    color: #000000;
+    background: #ffffff;
+}
+
+.feedback-short__phone {
+    margin: 10px 20px;
+    white-space: nowrap;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.187em;
+    color: #000000;
+}

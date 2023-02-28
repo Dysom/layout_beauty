@@ -1,0 +1,32 @@
+.special {
+    background: url("../img/delivery-car.svg") no-repeat right 65px top 32px;
+
+    @media (max-width: 600px) {
+        background: none;
+    }
+}
+
+.special__caption {
+    margin: 0 15px 23px;
+    font-family: "Roboto";
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 1.167em;
+    color: #000000;
+
+    @media (max-width: 600px) {
+        text-align: center;
+    }
+}
+
+.special__cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.special__card {
+    width: 255px;
+    min-width: 245px;
+    margin: 15px;
+}

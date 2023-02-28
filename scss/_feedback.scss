@@ -1,0 +1,85 @@
+@use "./templates";
+
+.feedback {
+    background-color: #fff;
+}
+
+.feedback__wrapper {
+    @extend %wrapper-x-template;
+    min-height: 120px;
+
+    @media (max-width: 930px) {
+        flex-direction: column;
+        padding-top: 35px;
+        padding-bottom: 50px;
+    }
+}
+
+.feedback__box {
+    margin: 10px 0;
+    flex-basis: 33.3%;
+    // border: solid 1px red;
+
+    @media (max-width: 930px) {
+        flex-basis: unset;
+    }
+}
+
+.feedback__box_socials {
+    display: flex;
+}
+
+.feedback__box_socials > a:not(:last-of-type) {
+    margin-right: 20px;
+}
+
+.feedback__box_address {
+    padding: 0 50px;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.143em;
+    color: #000000;
+    text-align: center;
+    white-space: nowrap;
+
+    @media (max-width: 930px) {
+        padding: 0;
+    }
+}
+
+.feedback__box_phone {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    font-family: "Roboto";
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.1875em;
+    color: #000000;
+
+    @media (max-width: 390px) {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+.feedback__button {
+    @extend %button-template;
+    border: 2px solid #66c05d;
+    color: #000000;
+    background: #ffffff;
+}
+
+.feedback__box_phone span {
+    white-space: nowrap;
+}
+
+.feedback__box_phone span + button {
+    margin-left: 40px;
+
+    @media (max-width: 390px) {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+}

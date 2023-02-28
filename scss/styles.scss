@@ -1,0 +1,26 @@
+$debug: 0;
+
+@use "./fonts";
+@use "./common";
+@use "./body";
+@use "./header";
+@use "./top-nav";
+@use "./beauty";
+@use "./logo";
+@use "./feedback-short";
+@use "./middle-nav";
+@use "./page";
+@use "./promotion";
+@use "./special";
+@use "./card";
+@use "./actions";
+@use "./action-box";
+@use "./feedback";
+@use "./copy";
+
+@if $debug == 1 {
+    // .main-wrapper > *:not(.footer) {
+    //     display: none;
+    // }
+    //
+}
